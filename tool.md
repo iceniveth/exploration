@@ -91,7 +91,7 @@ const [quotations, setQuotations] = React.useState<Carrier[]>([]);
 
 But I think for that to work, we might need [Workspaces](https://docs.npmjs.com/cli/v10/using-npm/workspaces) or Monorepo tooling like [NX](https://nx.dev/) or [Turborepo](https://turbo.build/). Manual approach is to create another `carrier.model` file in the frontend directory but this would lead to duplicate types (one for FE and one for BE).
 
-## Approach 2 (NestJS + NextJS)
+### Approach 2 (NestJS + NextJS)
 
 Assume we have the same NestJS controller for the `/api/carriers` endpoint like Approach #1 and a similar folder stucture as well:
 
