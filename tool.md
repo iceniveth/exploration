@@ -148,7 +148,7 @@ export default async function ListCarriers() {
 
 With Typescript [type inference](https://www.typescriptlang.org/docs/handbook/type-inference.html) the `carriers` variable will have a `Carrier[]` type. No need to explicitly type it as `Carrier[]`.
 
-#### Making API endpoints in NextJS
+#### [Making API endpoints in NextJS](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
 
 ##### For GET /api/carriers
 
